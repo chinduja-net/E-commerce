@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/551bea38f0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>EasyBuy</title>
+</head>
+
+<body>
+    <!---nav bar start-->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li class="logo">LOGO</li>
+                <li>shoes</li>
+                <li>clothing</li>
+                <li>Home & Living</li>
+                <jclass="search searchbox">
+                    <input type="text" placeholder="Search for products, brands and more" id="searchbar">
+                    <i class="fas fa-search"></i>
+                </div>
+            </ul>
+        </nav>
+        <!---End of nav bar-->
+
+       <!---Sliders start-->
+        <div class="slider">
+            <div class="slide"><img src="images/slider/shoppingwomenedit.jpg" alt=""></div>
+            <div class="slide"><img src="images/slider/neonbrand-Wp7t4cWN-68-unsplash.jpg" alt=""></div>
+            <div class="slide"><img src="images/slider/lan-deng-quddu_dZKkQ-unsplash.jpg" alt=""></div>
+            <div class="slide"><img src="images/slider/taylor-smith-aDZ5YIuedQg-unsplash.jpg" alt=""></div>
+            <div class="dots"></div>
+
+        </div>
+        <div>
+            <p class="sale-banner">sale 20% off site wide</p>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="section">
+            <h2 class="text-center">Our Products</h2>
+            <div class="products">
+
+                <div class="product">
+                    <img class="product__image"
+                        src="images/fdc67729-c3d9-431d-822a-5b1519e81c1c1607762396068-Supima-T-Shirt-2941607762394091-1.webp"
+                        alt="pink tshirt">
+                    <h2 class="product__name">pink T-shirt</h2>
+                    <h3 class="product__price">100 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/blank-1886001_640.png" alt="black t shirt">
+                    <h2 class="product__name">black top</h2>
+                    <h3 class="product__price">150 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/GIRL.png" alt="Jumpsuit picture">
+                    <h2 class="product__name">JumpSuit</h2>
+                    <h3 class="product__price">499 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/joel-muniz-bS_1xFUPgWU-unsplash.jpg" alt="pic of shoe">
+                    <h2 class="product__name">Running shoes</h2>
+                    <h3 class="product__price">1299 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/nikita-kachanovsky-ad_0wMHtvlU-unsplash.jpg.png"
+                        alt="casual shoe">
+                    <h2 class="product__name">casual shoes</h2>
+                    <h3 class="product__price">1499 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/ox-street-BWPqHZBhMVA-unsplash.jpg" alt="sneaker shoe">
+                    <h2 class="product__name">Sneakers</h2>
+                    <h3 class="product__price">1699 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/leanne-prosvic-jLEwLH0SYkM-unsplash.jpg" alt="chair">
+                    <h2 class="product__name">blush pink chair</h2>
+                    <h3 class="product__price">1999 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/sam-moqadam-kvmdsTrGOBM-unsplash.jpg" alt="chair">
+                    <h2 class="product__name">arm chair</h2>
+                    <h3 class="product__price">2999 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img class="product__image" src="images/farhad-fallahzad-VtQMBG_Ljc0-unsplash.jpg"
+                        alt="sneaker shoe">
+                    <h2 class="product__name">Dining set</h2>
+                    <h3 class="product__price">4999 </h3>
+                    <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<div class="section__2">
+
+<!---currency converter-->
+<div class="currency__container">
+    <div class="currency">
+        <select name="" id="input_currency">
+            <option value="SEK" selected>SEK</option>
+        </select>
+        <input type="number" name="" id="input_amount" value="1">
+    </div>
+    <button id="exchange">
+        convert
+    </button>
+    <div class="currency">
+        
+        <select name="" id="output_currency">
+            <option value="AED">AED</option>
+            <option value="ARS">ARS</option>
+            <option value="AUD">AUD</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL</option>
+            <option value="BSD">BSD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CLP">CLP</option>
+            <option value="CNY">CNY</option>
+            <option value="COP">COP</option>
+            <option value="CZK">CZK</option>
+            <option value="DKK">DKK</option>
+            <option value="DOP">DOP</option>
+            <option value="EGP">EGP</option>
+            <option value="EUR" selected>EUR</option>
+            <option value="FJD">FJD</option>
+            <option value="GBP">GBP</option>
+            <option value="GTQ">GTQ</option>
+            <option value="HKD">HKD</option>
+            <option value="HRK">HRK</option>
+            <option value="HUF">HUF</option>
+            <option value="IDR">IDR</option>
+            <option value="ILS">ILS</option>
+            <option value="INR">INR</option>
+            <option value="ISK">ISK</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="KZT">KZT</option>
+            <option value="MXN">MXN</option>
+            <option value="MYR">MYR</option>
+            <option value="NOK">NOK</option>
+            <option value="NZD">NZD</option>
+            <option value="PAB">PAB</option>
+            <option value="PEN">PEN</option>
+            <option value="PHP">PHP</option>
+            <option value="PKR">PKR</option>
+            <option value="PLN">PLN</option>
+            <option value="PYG">PYG</option>
+            <option value="RON">RON</option>
+            <option value="RUB">RUB</option>
+            <option value="SAR">SAR</option>
+            <option value="SEK">SEK</option>
+            <option value="SGD">SGD</option>
+            <option value="THB">THB</option>
+            <option value="TRY">TRY</option>
+            <option value="TWD">TWD</option>
+            <option value="UAH">UAH</option>
+            <option value="USD">USD</option>
+            <option value="UYU">UYU</option>
+            <option value="VND">VND</option>
+            <option value="ZAR">ZAR</option>
+        </select>
+        <input type="number" name="" id="output_amount" placeholder="0" />
+    </div>
+    <div class="result">
+        <div class="rate" id="rate"></div>
+    </div>
+    </div>
+       
+<!--------cart-------->
+<div class="cart-section">
+    <h2 class="text-center">Cart</h2>
+    <div class="cart"></div>
+</div>
+</div>
+
+    <footer class="footer">
+        
+        <div class="social">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/login"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-square"></i></a>
+            <div class="app">
+                <a href="https://www.apple.com/shop"><img src="images/applestore.png" alt=""></a>
+                <a href="https://play.google.com/store"><img src="images/gpay.png" alt=""></a>
+
+            </div>
+               
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
